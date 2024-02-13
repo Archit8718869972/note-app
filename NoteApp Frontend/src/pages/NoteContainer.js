@@ -61,7 +61,8 @@ const NoteContainer = () => {
         <ul>
           {notes.map((note, index) => (
             <li key={index}>
-              <strong>{note.title}</strong>: {note.body}
+              <strong>Titile  :{note.title}</strong> 
+              <div>Note Area : {note.body}</div>
             </li>
           ))}
         </ul>
